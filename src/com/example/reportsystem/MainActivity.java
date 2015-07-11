@@ -21,7 +21,7 @@ public class MainActivity extends FragmentActivity {
 	private Fragment[] fragments;
 	private RadioGroup rgNavbar;
 	private FragmentManager fmanager;
-	private FragmentTransaction ftransaction;
+	private FragmentTransaction ftransaction;//
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
