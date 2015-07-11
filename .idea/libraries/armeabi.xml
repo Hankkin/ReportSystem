@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="armeabi">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/android-support-v4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/baidumapapi_v3_5_0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/libs/locSDK_5.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/libs/armeabi" />
+    </NATIVE>
+    <SOURCES />
+  </library>
+</component>

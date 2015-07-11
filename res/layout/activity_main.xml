@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <!-- Fragment -->
+
+    <fragment
+        android:id="@+id/fragment_help"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        class="com.example.fg.FragmentHelp" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_report"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        class="com.example.fg.FragmentReport" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_more"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        class="com.example.fg.FragmentMore" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_personal"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        class="com.example.fg.FragmentPersonal" >
+    </fragment>
+
+    <RadioGroup
+        android:id="@+id/navbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/radiogroup_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+    
+
+    <RadioButton
+        android:id="@+id/navbtnHelp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:button="@null"
+        android:checked="true"
+        android:drawableTop="@drawable/navbar_btnhelp_bg"
+        android:gravity="center_horizontal"
+        android:text="求助"
+        android:textColor="#FFFFFF" />
+
+    <RadioButton
+        android:id="@+id/navbtnReport"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:button="@null"
+        android:checked="false"
+        android:drawableTop="@drawable/navbar_btnreport_bg"
+        android:gravity="center_horizontal"
+        android:text="上报"
+        android:textColor="#FFFFFF" />
+
+    <RadioButton
+        android:id="@+id/navbtnMore"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:button="@null"
+        android:checked="false"
+        android:drawableTop="@drawable/navbar_btnmore_bg"
+        android:gravity="center_horizontal"
+        android:text="设置"
+        android:textColor="#FFFFFF" />
+
+    <RadioButton
+        android:id="@+id/navbtnPersonal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:button="@null"
+        android:checked="false"
+        android:drawableTop="@drawable/navbar_btnpersonal_bg"
+        android:gravity="center_horizontal"
+        android:text="我的"
+        android:textColor="#FFFFFF" />
+    </RadioGroup>
+
+</LinearLayout>
